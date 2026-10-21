@@ -8,7 +8,7 @@ This repository uses the authors' official code (https://github.com/alps-lab/rem
 - `reproduced_ReMasker_results.ipynb`: runs ReMasker on 8 datasets
 - `reproduced_baseline_results.ipynb`: runs HyperImpute and 6 baselines on the same datasets
 - `baseline/`: result files (JSON), one per dataset; comparision with baseline models
-- `reproduced/`: result files (JSON), one per dataset; results of ReMasker
+- `repro/`: result files (JSON), one per dataset; results of ReMasker
 
 ## How to run
 Use Google Colab with a T4 GPU, and run the notebook cells in order:
