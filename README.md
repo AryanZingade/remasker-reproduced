@@ -34,9 +34,7 @@ Use Google Colab with a T4 GPU, and run the notebook cells in order:
 ## Environment
 
 - Python: 3.13.16
-- PyTorch: 2.11.0+cpu
 - NumPy: 2.1.3
-- Pandas: 2.2.3
 - HyperImpute: 0.1.17
 - Platform: Google Colab, NVIDIA T4 GPU
 
@@ -47,4 +45,3 @@ Use Google Colab with a T4 GPU, and run the notebook cells in order:
 - Optimizer: Adam, learning rate 1e-3, weight decay 0.05
 - Model size: set per dataset by the authors' `configs.py`
 - Baselines: HyperImpute, ICE, MICE, MissForest, mean, median, most frequent
-- Software: Python [version], PyTorch [version], hyperimpute [version], T4 GPU
