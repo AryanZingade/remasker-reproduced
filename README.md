@@ -7,7 +7,8 @@ This repository uses the authors' official code (https://github.com/alps-lab/rem
 ## Files
 - `reproduced_ReMasker_results.ipynb`: runs ReMasker on 8 datasets
 - `reproduced_baseline_results.ipynb`: runs HyperImpute and 6 baselines on the same datasets
-- `output/`: result files (JSON), one per dataset
+- `baseline/`: result files (JSON), one per dataset; comparision with baseline models
+- `reproduced/`: result files (JSON), one per dataset; results of ReMasker
 
 ## How to run
 Use Google Colab with a T4 GPU, and run the notebook cells in order:
@@ -30,6 +31,14 @@ Use Google Colab with a T4 GPU, and run the notebook cells in order:
 ```
    !python run_baseline.py --dataset yacht --exp_name baselines --note run1
 ```
+## Environment
+
+- Python: 3.13.16
+- PyTorch: 2.11.0+cpu
+- NumPy: 2.1.3
+- Pandas: 2.2.3
+- HyperImpute: 0.1.17
+- Platform: Google Colab, NVIDIA T4 GPU
 
 ## Settings
 - Missing values: MAR, 30%
